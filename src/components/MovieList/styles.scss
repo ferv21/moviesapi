@@ -1,0 +1,22 @@
+.movielist{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .movieitem{
+        display: flex;
+        justify-content: center;
+        background: none;
+    }
+
+    .swiper-button-prev::after {
+        color: red;
+        
+    }
+
+    .swiper-button-next::after {
+        color: red;
+    }
+}

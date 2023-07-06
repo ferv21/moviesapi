@@ -1,0 +1,45 @@
+header {
+    
+    background-color: var(--section-color);
+    padding: 32px 0;
+
+    h1{
+        color:var(--text-color);
+        span {
+            color:var(--btn-color);
+        }
+    }
+
+    
+    .navbar{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1360px;
+        width: 100%;
+        margin: 0 auto;
+
+        ul {
+            li {
+                padding: 0 16px;
+                a{
+                    color:var(--text-color);
+                }
+            }
+        }
+    }
+
+    .find{
+        display: flex;
+        align-items: center;
+        color:var(--text-color);
+
+        input{
+            border-radius: 8px;
+            outline: none;
+            border: none;
+            padding: 6px;
+            width: 200px;
+        }
+    }
+}
