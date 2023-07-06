@@ -10,17 +10,13 @@ const Header = () => {
                     <h1><span>FV</span> Films</h1>
                 </div>
                 <div style={{display:"flex", alignItems:"center"}}>
-                    <ul style={{display:"flex"}}>
+                    <ul className="menu-list" style={{display:"flex"}}>
                         <li>
                             <a href="">Most Popular</a>
                         </li>
                         <li>
                             <a href="">Top Rates</a>
                         </li>
-                        <li>
-                            <a href="">Most Popular</a>
-                        </li>
-                        
                     </ul>
                      <div className="find">
                         <input type="text" placeholder="Buscar..." />

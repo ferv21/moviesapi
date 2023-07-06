@@ -13,8 +13,8 @@ const MovieCard = ({title,overview,poster_path}) => {
       }
 
     const getTitle = (title) => {
-        if(title.length > 15){
-            return title.slice(0, 13) + '...'
+        if(title.length > 17){
+            return title.slice(0, 14) + '...'
         }
         return title;
     }  
@@ -25,7 +25,7 @@ const MovieCard = ({title,overview,poster_path}) => {
         <div className="moviecard">
             <img src={`${API_IMG}`+poster_path} alt="" />
             <div className="moviecard__content">
-                <h1>{getTitle(title)}</h1>
+                <h3>{getTitle(title)}</h3>
                 <p>{getDescricao(overview)}</p>
             </div>
         </div>
